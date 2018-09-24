@@ -1,0 +1,18 @@
+const { REGIONS } = require ('kayn');
+
+module.exports = {
+  allowedServers: ['BR','EUNE','EUW','JP','KR','LAN','LAS','NA','OCE','TR','RU'],
+  servers: {
+    BR : REGIONS.BRAZIL,
+    EUNE: REGIONS.EUROPE,
+    EUW: REGIONS.EUROPE_WEST,
+    JP: REGIONS.JAPAN,
+    KR: REGIONS.KOREA,
+    LAN: REGIONS.LATIN_AMERICA_NORTH,
+    LAS: REGIONS.LATIN_AMERICA_SOUTH,
+    NA: REGIONS.NORTH_AMERICA,
+    OCE: REGIONS.OCEANIA,
+    TR: REGIONS.TURKEY,
+    RU: REGIONS.RUSSIA
+  }
+};
